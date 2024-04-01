@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+.content {
+    display: flex;
+    margin-top: 70px;
+}
+
+.left-side, 
+.right-side {
+    flex: 1; /* LARGEUR EGALE */
+}
+
+.logo, 
+.title {
+    display: inline-block;
+}
+
+.logo {
+    width: 12%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
