@@ -15,7 +15,7 @@ body {
 }
 
 .left-side, 
-.right-side {
+.right-side { 
     flex: 1; /* LARGEUR EGALE */
 }
 
@@ -24,8 +24,49 @@ body {
     display: inline-block;
 }
 
-.logo {
+.logo { 
     width: 12%;
     margin-top: 35px;
-    margin-left: 35px;
+    margin-left: 35px; 
+}
+
+/* LEFT CONTENT SIDE */
+.illustration-mockup img {
+    width: 90%;
+    margin-left: 40px;
+}
+
+.rigth-side-content {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.rigth-side-content {
+    width: 55%;
+}
+
+.rigth-side-content h1 {
+    color: #fff;
+    font-family: "roboto", sans-serif;
+    line-height: 40px;
+}
+
+.rigth-side-content p  {
+    margin-top: 30px;
+    color: #fff;
+    font-family: "roboto", "helvetica"; 
+    font-size: 14.5px;
+}
+
+/* BUTTON */
+.button {
+    margin-top: 15px;
+}
+
+.button button {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 40%; 
+    height: 35px;
 }
